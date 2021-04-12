@@ -1,0 +1,600 @@
+{
+  "settings": {
+    "name": "[PSTeng Corp.] {Technology}",
+    "currentPage": "index.html",
+    "theme": {
+      "name": "mobirise5",
+      "title": "Mobirise 5",
+      "styling": {
+        "primaryColor": "#6592e6",
+        "secondaryColor": "#ff0000",
+        "successColor": "#40b0bf",
+        "infoColor": "#47b5ed",
+        "warningColor": "#FFE161",
+        "dangerColor": "#ff9966",
+        "mainFont": "Jost",
+        "display1Font": "Philosopher",
+        "display1Size": 4.6,
+        "display2Font": "Yeseva One",
+        "display2Size": 3,
+        "display5Font": "Alegreya",
+        "display5Size": 2,
+        "display7Font": "Signika",
+        "display7Size": 1.2,
+        "display4Font": "Fira Sans Condensed",
+        "display4Size": 1.1,
+        "isRoundedButtons": false,
+        "isGhostButtonBorder": false,
+        "underlinedLinks": false,
+        "isAnimatedOnScroll": true,
+        "isScrollToTopButton": true
+      },
+      "additionalSetColors": [
+        "#5d2c1a",
+        "#8e0000",
+        "#ff0000",
+        "#3e0000"
+      ]
+    },
+    "path": "@PROJECT_PATH@",
+    "versionFirst": "5.3.5",
+    "siteFonts": [
+      {
+        "css": "'Philosopher', sans-serif",
+        "name": "Philosopher",
+        "url": "https://fonts.googleapis.com/css?family=Philosopher:400,400i,700,700i"
+      },
+      {
+        "css": "'Yeseva One', display",
+        "name": "Yeseva One",
+        "url": "https://fonts.googleapis.com/css?family=Yeseva+One:400"
+      },
+      {
+        "css": "'Alegreya', serif",
+        "name": "Alegreya",
+        "url": "https://fonts.googleapis.com/css?family=Alegreya:400,500,600,700,800,900,400i,500i,600i,700i,800i,900i"
+      },
+      {
+        "css": "'Signika', sans-serif",
+        "name": "Signika",
+        "url": "https://fonts.googleapis.com/css?family=Signika:300,400,500,600,700"
+      },
+      {
+        "css": "'Fira Sans Condensed', sans-serif",
+        "name": "Fira Sans Condensed",
+        "url": "https://fonts.googleapis.com/css?family=Fira+Sans+Condensed:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      }
+    ],
+    "favicon": "@PROJECT_PATH@/assets/images/pst-icon.png",
+    "witsec-mailform-to": "Labs@EZtech.OOO",
+    "witsec-mailform-from": "Labs@EZtech.OOO",
+    "witsec-mailform-from-them": false,
+    "witsec-mailform-from-them-replyto": false,
+    "witsec-mailform-from-name": "Your Name",
+    "witsec-mailform-from-name-them": false,
+    "witsec-mailform-from-name-them-field": "{name}",
+    "witsec-mailform-template": "Hi,\n\nYou have received a new message from your website.\n\n{formdata}\n\nDate: {date}\nRemote IP: {ip}\n\n---\nHave a nice day.",
+    "witsec-mailform-autorespond-subjectprefix": "Re:",
+    "witsec-mailform-autorespond-subject": "",
+    "witsec-mailform-autorespond-template": "Hi {name},\n\nThank you for your message. We'll get back to you as soon as we can.\nHere's the information you sent us:\n\n{formdata}\n\n---\nHave a nice day.",
+    "witsec-mailform-recaptcha": false,
+    "witsec-mailform-recaptcha-version": "3",
+    "witsec-mailform-recaptcha-sitekey": "",
+    "witsec-mailform-recaptcha-secretkey": "",
+    "witsec-mailform-recaptcha-score": "0.5",
+    "witsec-mailform-disable-button": false,
+    "mbrsiteDomain": "0f99dgn6rq",
+    "imageResize": false,
+    "robotsSwitcher": false,
+    "sitemapSwitcher": false,
+    "sitemapSwitcherAuto": false,
+    "siteUrl": false,
+    "cookiesAlert": false,
+    "gdpr": false,
+    "witsec-white-label": true,
+    "witsec-mailform": true,
+    "uniqCompNum": 5,
+    "versionPublish": "5.3.5",
+    "google-analytics": "<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-9PL3QYLYJC\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'G-9PL3QYLYJC');\n</script>",
+    "screenshot": "screenshot.png"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "[PSTeng Corp.] {Công Nghệ Tích Hợp}",
+        "meta_descr": "PST tích hợp & ứng dụng quy trình công nghệ tiên tiến trong quá trình nghiên cứu, sản xuất và thi công nhằm mang lại hiệu quả cao nhất.",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background": "linear-gradient(to bottom right, @gColor, @bg-value)"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)",
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            "& when (@bg-type = 'video')": {
+              ".card-box": {
+                "padding": "1rem 2rem 2rem"
+              }
+            },
+            ".text-color": {
+              "color": "#ffffff"
+            },
+            "*": {
+              "margin": "0",
+              "padding": "0",
+              "outline": "none",
+              "border": "none",
+              "box-sizing": "border-box"
+            },
+            "*:before, *:after": {
+              "box-sizing": "border-box"
+            },
+            "html, body": {
+              "min-height": "100%"
+            },
+            "h1": {
+              "display": "table",
+              "margin": "5% auto 0",
+              "text-transform": "uppercase",
+              "font-family": "'Times Roman', sans-serif",
+              "font-size": "3em",
+              "font-weight": "400",
+              "color": "#fff",
+              "text-shadow": "0 1px white, 0 1px black"
+            },
+            ".container": {
+              "margin": "4% auto",
+              "width": "210px",
+              "height": "140px",
+              "position": "relative",
+              "perspective": "1000px"
+            },
+            "#carousel": {
+              "width": "100%",
+              "height": "100%",
+              "position": "absolute",
+              "transform-style": "preserve-3d",
+              "animation": "rotation 20s infinite linear"
+            },
+            "#carousel:hover": {
+              "animation-play-state": "paused"
+            },
+            "#carousel figure": {
+              "display": "block",
+              "position": "absolute",
+              "width": "90%",
+              "height": "50%px",
+              "left": "10px",
+              "top": "10px",
+              "background": "black",
+              "overflow": "hidden",
+              "border": "solid 3px black"
+            },
+            "#carousel figure:nth-child(1)": {
+              "transform": "rotateY(0deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(2)": {
+              "transform": "rotateY(40deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(3)": {
+              "transform": "rotateY(80deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(4)": {
+              "transform": "rotateY(120deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(5)": {
+              "transform": "rotateY(160deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(6)": {
+              "transform": "rotateY(200deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(7)": {
+              "transform": "rotateY(240deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(8)": {
+              "transform": "rotateY(280deg) translateZ(288px)"
+            },
+            "#carousel figure:nth-child(9)": {
+              "transform": "rotateY(320deg) translateZ(288px)"
+            },
+            "img:hover": {
+              "-webkit-filter": "grayscale(0)",
+              "transform": "scale(1.2, 1.2)"
+            },
+            "@keyframes rotation": {
+              "from": {
+                "transform": "rotateY(0deg)"
+              },
+              "to": {
+                "transform": "rotateY(360deg)"
+              }
+            }
+          },
+          "_customHTML": "<section mbr-id=\"_3d_image_view\" class=\"mbr-section 3d_image_view\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n      <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n      <select title=\"Slider Count\" name=\"dimgslidercount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n        <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        <option value=\"7\">7</option>\n            <option value=\"8\">8</option>\n            <option value=\"9\" selected>9</option>\n        </select>\n       <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/pst-techno.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#673ab7\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n      <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n      <input type=\"color\" title=\"Gradiant Color\" name=\"gColor\" value=\"#7f1933\" condition=\"overlay && bg.type == 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters> \n  <!--Overlay-->\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <!--Container-->\n<h1 mbr-if=\"showTitle\">3D IMAGE View</h1><br>\n<div class=\"container\">\n    <div id=\"carousel\">\n        <figure mbr-if=\"dimgslidercount > 0\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech9.png\" alt=\"PST - Kỹ thuật cơ khí công nghiệp và dân dụng\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 1\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech8.png\" alt=\"PST - Bộ lọc tĩnh điện\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 2\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech7.png\" alt=\"PST - Bộ lọc bụi làm bằng vật liệu rỗng\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 3\"><a href=\"index.html#KNA-LegalService_Entries\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech6.png\" alt=\"PST - Bộ lọc bụi kiểu sủi bọt\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 4\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech5.png\" alt=\"PST - Bộ lọc bụi kiểu thùng quay\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 5\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech4.png\" alt=\"PST - Bộ lọc bụi kiểu lưới\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 6\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech3.png\" alt=\"PST - Bộ lọc bụi kiểu túi vải\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 7\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech2.png\" alt=\"PST - Bộ lọc bụi kiểu quán tính\"></a></figure>\n        <figure mbr-if=\"dimgslidercount > 8\"><a href=\"index.html#PST-Ent_Techno\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech1.png\" alt=\"PST - Bộ lọc bụi kiểu Cyclone\"></a></figure>\n    </div>\n</div>\n</section>",
+          "_anchor": "PST-Intro_Techno",
+          "_isUserblock": true,
+          "_cid": "suf2TTE4EA",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "design-block",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "position": "relative",
+            "& when (@bg-type = 'color')": {
+              "& when not (@transp)": {
+                "background": "linear-gradient(@angle * 1deg, @bg-value, @color2)"
+              },
+              "& when (@transp)": {
+                "background": "transparent"
+              }
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".fondcolor": {
+              "margin-top": "(@borderspace * 1px)",
+              "border-radius": "(@borderradius * 1px)",
+              "border": "(@bordersize * 1px) solid @Colortab2",
+              "background": "@CardColor"
+            },
+            ".card": {
+              "border-radius": "(@borderradius * 1px)",
+              "margin-bottom": "(@marginbottom * 1px)",
+              ".card-header": {
+                "border-radius": "(@borderradius * 1px)",
+                "border": "0px",
+                "padding": "0",
+                "a.panel-title": {
+                  "margin-bottom": "0",
+                  "font-style": "normal",
+                  "font-weight": "500",
+                  "display": "block",
+                  "text-decoration": "none !important",
+                  "margin-top": "0",
+                  "line-height": "normal",
+                  "align-items": "center",
+                  "&:focus": {
+                    "text-decoration": "none !important"
+                  },
+                  "h4": {
+                    "padding": "(@tabheight * 1rem) 2rem",
+                    "border": "(@bordersize * 1px) solid @Colortab2",
+                    "margin-bottom": "-1px",
+                    "border-radius": "(@borderradius * 1px)",
+                    "background-color": "@Colortab",
+                    "display": "-webkit-flex",
+                    ".sign": {
+                      "padding-right": "1rem",
+                      "font-size": "25px"
+                    }
+                  }
+                }
+              }
+            },
+            ".mbr-figure": {
+              "padding-bottom": "2rem",
+              "padding-top": "2rem",
+              "padding-left": "2rem",
+              "padding-right": "2rem"
+            },
+            "& when not (@reverseContent)": {
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-right": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".mbr-figure": {
+                  "padding-bottom": "1rem"
+                }
+              }
+            },
+            "& when (@reverseContent)": {
+              ".media-container-row": {
+                "flex-direction": "row-reverse",
+                "-webkit-flex-direction": "row-reverse"
+              },
+              "@media (min-width: 992px)": {
+                ".mbr-figure": {
+                  "padding-left": "4rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                ".media-container-row": {
+                  "flex-wrap": "wrap-reverse",
+                  "-webkit-flex-wrap": "wrap-reverse"
+                },
+                ".mbr-figure": {
+                  "padding-top": "1rem"
+                }
+              }
+            },
+            ".mbr-text": {
+              "color": "#6c0000"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#8e0000"
+            },
+            "H2": {
+              "color": "#bf0101"
+            },
+            "H4": {
+              "text-align": "left",
+              "color": "#ffffff"
+            }
+          },
+          "_customHTML": "<section class=\"accordion1\" group=\"Accordion & Toggles & Tabs\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background':bg.parallax}\" plugins=\"mbr-switch-arrow\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"4\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"5\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n                <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\">\n<input type=\"checkbox\" title=\"Show Image\" name=\"mediaup\">\n              <input type=\"range\" inline title=\"Image Size\" name=\"mediaSizeup\" min=\"10\" max=\"100\" step=\"5\" value=\"30\" condition=\"mediaup\">\n        <select title=\"Accordions Count\" name=\"bootstrapAccordion\">\n             <option value=\"1\">1</option>\n             <option value=\"2\">2</option>\n             <option value=\"3\">3</option>\n             <option value=\"4\">4</option>\n             <option value=\"5\">5</option>\n             <option value=\"6\">6</option>\n             <option value=\"7\">7</option>\n             <option value=\"8\">8</option>\n             <option value=\"9\" selected>9</option>\n        </select>\n        \n                <header>Text/Image</header>\n                        <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n                         \n                <input type=\"checkbox\" title=\"Show Image\" name=\"showImage\" checked>\n        <input type=\"range\" inline title=\"Image Size\" name=\"mediaSize\" min=\"10\" max=\"100\" step=\"5\" value=\"35\" condition=\"showImage\">\n        <input type=\"checkbox\" title=\"Text On Right/Left\" name=\"reverseContent\" condition=\"showImage\"> \n        <header>Tab</header>\n                           <input type=\"color\" title=\"Color tab\" name=\"Colortab\" value=\"#5d2c1a\">\n          <input type=\"color\" title=\"Color border\" name=\"Colortab2\" value=\"#232323\">\n         <input type=\"range\" inline title=\"Border size\" name=\"bordersize\" min=\"0\" max=\"10\" step=\"1\" value=\"0\">\n         <input type=\"color\" title=\"Color Card\" name=\"CardColor\" value=\"#ddebf1\">\n                <input type=\"range\" inline title=\"Border Radius\" name=\"borderradius\" min=\"0\" max=\"40\" step=\"1\" value=\"0\">\n         <input type=\"range\" inline title=\"Card Space\" name=\"borderspace\" min=\"0\" max=\"20\" step=\"1\" value=\"0\">\n              <input type=\"range\" inline title=\"Width Content\" name=\"widthContent\" min=\"1\" max=\"4\" step=\"1\" value=\"4\">\n              <input type=\"range\" inline title=\"Tab Height\" name=\"tabheight\" min=\"0\" max=\"3\" step=\"0.1\" value=\"0.5\">\n             <input type=\"range\" inline title=\"Margin bottom\" name=\"marginbottom\" min=\"-1\" max=\"20\" step=\"1\" value=\"3\"> \n              \n                     <header>Background</header>     \n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr.jpg\" selected parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n                 <input type=\"color\" title=\"Color 2\" name=\"color2\" value=\"#ff3366\" condition=\"bg.type == 'color'\">\n         <input type=\"range\" name=\"angle\" title=\"Angle\" min=\"0\" max=\"270\" value=\"0\" step=\"1\" condition=\"bg.type == 'color'\">\n\t\t \t\t <input type=\"checkbox\" title=\"Background Transparent\" name=\"transp\" condition=\"bg.type == 'color'\">\n         \n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"media-container-row\">\n          <div mbr-class=\"{'col-md-6': widthContent == 1, 'col-md-8': widthContent == 2, 'col-md-10': widthContent == 3, 'col-md-12': widthContent == 4}\">\n\n                <div class=\"section-head text-center space30\">\n                    <h2 class=\"mbr-section-title pb-5 mbr-fonts-style\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>PST Tích Hợp &amp; Ứng Dụng Công Nghệ Cao</b></h2>\n                      <h3 mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" class=\"mbr-section-subtitle align-center mbr-light mbr-fonts-style\" mbr-theme-style=\"display-5\"><b>PSTeng Corp. tích hợp &amp; ứng dụng quy trình công nghệ tiên tiến trong quá trình nghiên cứu, sản xuất và thi công nhằm mang lại hiệu quả cao nhất</b><br>\n                </h3>\n                      <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"mediaup\">\n                <img src=\"https://www.unsitepourtous.be/mobi/zen2cool.png\" alt=\"Mobirise\" mbr-style=\"{'width': mediaSizeup + '%'}\">\n      </div>\n               <div class=\"mbr-section-btn align-center py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"https://mobiri.se\" data-app-placeholder=\"Type Text\">EN SAVOIR PLUS</a></div>\t\n                </div>\n                <div class=\"clearfix\"></div>\n                <div id=\"bootstrap-accordion\" class=\"panel-group accordionStyles accordion\" role=\"tablist\" aria-multiselectable=\"true\">\n                    <div class=\"card\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingOne\">\n                            <a role=\"button\" class=\"panel-title collapsed text-black\" data-toggle=\"collapse\" data-core href=\"#collapse1\" aria-expanded=\"false\" aria-controls=\"collapse1\">\n                                <h4 class=\"mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech1.png\" alt=\"PST - Bộ lọc bụi kiểu Cyclone\"></span><b>&nbsp; &nbsp; &nbsp;Bộ lọc bụi kiểu Cyclone</b></h4>\n                            </a>\n                        </div>\n                        \n                        \n                        \n                        <div id=\"collapse1\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingOne\" data-parent=\"#accordion\">\n                  <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech1.png\" alt=\"PST - Bộ lọc bụi kiểu Cyclone\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b><br>❖ Soạn thảo đơn:</b> đơn khởi kiện, đơn khiếu nại, đơn yêu cầu, đơn đề nghị,… .<br><br><b>❖<i> Soạn thảo song ngữ các Hợp đồng</i></b> trong các lĩnh vực kinh doanh - thương mại, lao động, bảo hộ độc quyền thương mại, nhượng quyền thương mại... .<br><br><b>❖ <i>Các văn bản khác như:</i></b> Biên bản thanh lý, Biên bản làm việc, phụ lục Hợp đồng,... .<br><br></p>\n            </div>\n        </div>\n\t    </div></div>\n                                  \n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 1\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingTwo\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse2\" aria-expanded=\"false\" aria-controls=\"collapse2\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech2.png\" alt=\"PST - Bộ lọc bụi kiểu quán tính\"></span><b>&nbsp; &nbsp; &nbsp;Bộ lọc bụi kiểu quán tính kết hợp buồng lắng bụi</b></h4>\n                            </a>\n                            \n                        </div>\n                        <div id=\"collapse2\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingTwo\" data-parent=\"#accordion\">\n                                            <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech2.png\" alt=\"PST - Bộ lọc bụi kiểu quán tính\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b><br>❖</b> <b><i>Kiểm tra và tư vấn</i></b> điều chỉnh các điều khoản trong Hợp đồng, văn vản pháp lý... .<br><br><b>❖</b> <b><i>Rà soát hợp đồng thương mại</i></b> mua bán hàng hóa, dịch vụ trong và ngoài nước.<br><br><b>❖</b> <b><i>Tư vấn rà soát hợp đồng</i></b> liên quan tới quyền sử dụng đất và tài sản trên đất.<br><br><b>❖</b> <b><i>Tư vấn rà soát</i></b> Hợp đồng bảo hiểm; Hợp đồng đại lý; Hợp đồng hợp tác; Hợp đồng lao động;... .<br><br></p>\n                       \n            </div>\n        </div>\n\t\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 2\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingThree\">\n                            <a role=\"button\" class=\"collapsed text-black panel-title\" data-toggle=\"collapse\" data-core href=\"#collapse3\" aria-expanded=\"false\" aria-controls=\"collapse3\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech3.png\" alt=\"PST - Bộ lọc bụi kiểu túi vải\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc bụi kiểu túi vải</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse3\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingThree\" data-parent=\"#accordion\">\n                                           <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech3.png\" alt=\"PST - Bộ lọc bụi kiểu túi vải\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                               <b><br>❖</b> <b><i>Thành lập</i></b> doanh nghiệp mới; Thành lập chi nhánh, văn phòng đại diện, địa điểm kinh doanh.<br><br><b>❖</b> <b><i>Chuyển đổi</i></b> loại hình doanh nghiệp.<br><br><b>❖</b> <b><i>Thay đổi</i></b> nội dung trên Giấy chứng nhận đăng ký doanh nghiệp bao gồm: Thay đổi tên doanh nghiệp; Thay đổi trụ sở doanh nghiệp; Thay đổi bổ sung ngành nghề kinh doanh; Tăng giảm vốn; Thay đổi thành viên công ty; Thay đổi chủ sở hữu đồi với Công ty; Thay đổi người đại diện pháp luật,… .<br><br><b>❖</b> <b><i>Cấp lại</i></b> Giấy chứng nhận đăngký doanh nghiệp.<br><br></p>\n                       \n            </div>\n        </div>\n\t\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 3\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFour\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse4\" aria-expanded=\"false\" aria-controls=\"collapse4\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech4.png\" alt=\"PST - Bộ lọc bụi kiểu lưới\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc bụi kiểu lưới</b></h4>\n                            </a> \n                        </div>\n                        <div id=\"collapse4\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFour\" data-parent=\"#accordion\">\n                                           <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech4.png\" alt=\"PST - Bộ lọc bụi kiểu lưới\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ Tư vấn <b><i>đầu tư trong nước</i></b>.<br><br>❖ Tư vấn <b><i>đầu tư ra nước ngoài</i></b>.<br><br>❖ Tư vấn và thực hiện thủ tục mở <b><i>dự án đầu tư mới</i></b>.<br><br>❖ Tư vấn và thực hiện thủ tục <b><i>điều chỉnh dự án đầu tư</i></b>.<br><br>\n                            </p>\n                       \n            </div>\n        </div>\n\t\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 4\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingFive\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse5\" aria-expanded=\"false\" aria-controls=\"collapse5\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech5.png\" alt=\"PST - Bộ lọc bụi kiểu thùng quay\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc bụi kiểu thùng quay</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse5\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingFive\" data-parent=\"#accordion\">\n                                           <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech5.png\" alt=\"PST - Bộ lọc bụi kiểu thùng quay\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ Thực hiện thủ tục xin <b><i>cấp Giấy chứng nhận</i></b> quyền sử dụng đất.<br><br>❖ Thực hiện thủ tục <b><i>điều chỉnh biến động</i></b> Giấy chứng nhận quyền sử dụng đất.<br><br>❖ Thực hiện thủ tục xin cấp Giấy chứng nhận <b><i>sở hữu công trình</i></b>.<br><br>\n                            </p>\n                       \n            </div>\n        </div>\n\t\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 5\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSix\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse6\" aria-expanded=\"false\" aria-controls=\"collapse6\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech6.png\" alt=\"PST - Bộ lọc bụi kiểu sủi bọt\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc bụi kiểu sủi bọt</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse6\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSix\" data-parent=\"#accordion\">\n                                            <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech6.png\" alt=\"PST - Bộ lọc bụi kiểu sủi bọt\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ <b><i>Đăng ký</i></b> nhãn hiệu, thương hiệu, sở hữu công nghiệp, bản quyền tác giả, tác phẩm,... .<br><br>❖ <b><i>Gia hạn</i></b> thời gian bảo hộ văn bằng.<br><br></p>\n            </div>\n        </div>\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 6\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingSeven\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse7\" aria-expanded=\"false\" aria-controls=\"collapse7\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech7.png\" alt=\"PST - Bộ lọc bụi làm bằng vật liệu rỗng\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc bụi làm bằng vật liệu rỗng</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse7\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingSeven\" data-parent=\"#accordion\">\n                                            <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech7.png\" alt=\"PST - Bộ lọc bụi làm bằng vật liệu rỗng\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ Xin Giấy chứng nhận cơ sở đủ điều kiện <b><i>vệ sinh an toàn thực phẩm</i></b>.<br><br>❖ Xin cấp Giấy chứng nhận đủ điều kiện về <b><i>an ninh trật tự</i></b>.<br><br>❖ Giấy phép <b><i>lao động</i></b>.<br><br>❖ Giấy phép con các <b><i>lĩnh vực có yêu cầu</i></b>.<br><br>\n                            </p>\n            </div>\n        </div>\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 7\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingEight\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse8\" aria-expanded=\"false\" aria-controls=\"collapse8\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech8.png\" alt=\"PST - Bộ lọc tĩnh điện\"></span>&nbsp; &nbsp; &nbsp;<b>Bộ lọc tĩnh điện</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse8\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingEight\" data-parent=\"#accordion\">\n                                            <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech8.png\" alt=\"PST - Bộ lọc tĩnh điện\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ Thực hiện thủ tục đăng ký <b><i>tạm trú cho nhà đầu tư</i></b>.<br><br>❖ Thực hiện thủ tục đăng ký <b><i>tạm trú</i></b> trong trường hợp <b><i>thăm người thân</i></b>.<br><br>❖ Thực hiện thủ tục đăng ký <b><i>tạm trú cho người lao động</i></b>.<br><br></p>\n            </div>\n        </div>\n    </div>\n                        </div>\n                    </div>\n                    <div class=\"card\" mbr-if=\"bootstrapAccordion > 8\">\n                        <div class=\"card-header\" role=\"tab\" id=\"headingNine\">\n                            <a role=\"button\" class=\"collapsed panel-title text-black\" data-toggle=\"collapse\" data-core href=\"#collapse9\" aria-expanded=\"false\" aria-controls=\"collapse9\">\n                                <h4 class=\" mbr-fonts-style\" mbr-theme-style=\"display-5\">\n                                    <span class=\"mobi-mbri\"><img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech9.png\" alt=\"PST - Kỹ thuật cơ khí công nghiệp và dân dụng\"></span>&nbsp; &nbsp; &nbsp;<b>Kỹ thuật cơ khí công nghiệp và dân dụng</b></h4>\n                            </a>\n                        </div>\n                        <div id=\"collapse9\" class=\"panel-collapse noScroll collapse\" role=\"tabpanel\" aria-labelledby=\"headingNine\" data-parent=\"#accordion\">\n                                            <div class=\"media-container-row fondcolor\">\n                    <div class=\"mbr-figure\" mbr-style=\"{'width': mediaSize + '%'}\" mbr-if=\"showImage\">\n                      <img src=\"@PROJECT_PATH@/assets/images/pst-ico-tech9.png\" alt=\"PST - Kỹ thuật cơ khí công nghiệp và dân dụng\">  \n                    </div>\n                    <div class=\"media-content\">\n                        <div class=\"mbr-section-text\">\n                            <p class=\"mbr-text mb-0 mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><br>❖ Dịch vụ pháp lý cho <b><i>lĩnh vực Kinh doanh</i></b>.<br><br>❖ Dịch vụ pháp lý cho các khía cạnh <b><i>Dân sự</i></b>.<br><br>❖ Dịch vụ pháp lý về Quản lý trật tự <b><i>Hành chính</i></b>.<br><br>❖ Dịch vụ pháp lý nhằm giải quyết <b><i>các vấn đề tranh chấp</i></b>.<br><br></p>\n            </div>\n        </div>\n    </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n        </div>\n\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "PST-Ent_Techno",
+          "_isUserblock": true,
+          "_cid": "suf2V7k4Pl",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 1rem)",
+              "padding-bottom": "(@paddingBottom * 1rem)"
+            },
+            "& when (@fullWidth)": {
+              ".container-fluid": {
+                "@media (min-width: 991px)": {
+                  "padding-left": "0"
+                }
+              }
+            },
+            "background-color": "@bgColor",
+            ".mbr-text, .mbr-section-btn": {
+              "color": "#232323",
+              "@media (max-width: 991px)": {
+                "text-align": "center"
+              }
+            },
+            ".mbr-text, .mbr-section-title": {
+              "@media (max-width: 991px)": {
+                "text-align": "center"
+              }
+            },
+            "a.btn": {
+              "height": "100%",
+              "margin": "0"
+            },
+            ".mbr-section-btn": {
+              "display": "flex",
+              "margin-bottom": "1rem",
+              "width": "100%",
+              ".btn": {
+                "width": "100%"
+              }
+            },
+            "@media (max-width: 991px)": {
+              ".image-wrapper": {
+                "margin-bottom": "2rem"
+              }
+            },
+            ".justify-content-center": {
+              "align-items": "center"
+            },
+            ".mbr-text": {
+              "text-align": "center",
+              "color": "#7a0000"
+            },
+            ".mbr-section-title": {
+              "text-align": "center",
+              "color": "#930000"
+            }
+          },
+          "_name": "form3",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"form3\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' &amp;&amp; bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\" plugins=\"formstyler, datepicker\">\n\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked=\"\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"0\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked=\"\">\n        <header>Background</header>\n        <input type=\"color\" name=\"bgColor\" title=\"Color\" value=\"#ffe161\" selected=\"\">\n        <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay &amp;&amp; bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-7 col-12\">\n                <div class=\"image-wrapper\">\n                    <!-- <img class=\"w-100\" src=\"@PROJECT_PATH@/assets/images/pst-congtrinh.jpg\" alt=\"PSTeng Corp.\"> -->\n                    <iframe src=\"https://psteng.tawk.help\" width=\"100%\" height=\"640\" allowfullscreen=\"\"></iframe>\n                </div>\n            </div>\n            <div mbr-form=\"\" class=\"col-lg-3 offset-lg-1 mbr-form\">\n                <form action=\"PSTeng@Officez.Net\" name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\">\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">Cảm ơn Bạn đã liên hệ! Hiện thông tin của Bạn đã được PST tiếp nhận và xử lý - Chúng Tôi sẽ sớm phản hồi đến Bạn! Trân Trọng!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">Oops...! some\n                            problem!</div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\" mbr-if=\"showTitle\">\n                            <h1 mbr-theme-style=\"display-2\" class=\"mbr-section-title mb-4\" data-app-selector=\".mbr-section-title\"><b>Liên Hệ PST</b></h1>\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12\">\n                            <p mbr-theme-style=\"display-7\" class=\"mbr-text mbr-fonts-style mb-4\" data-app-selector=\".mbr-text\" mbr-if=\"showText\">Kết nối đến PST để được hỗ trợ tư vấn giải pháp và báo trang giá thiết bị</p>\n                        </div>\n                        <div data-for=\"name\" class=\"col-lg-12 col-md col-sm-12 form-group\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Họ Tên / Quý Danh\" data-form-field=\"name\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div class=\"col-lg-12 col-md col-sm-12 form-group\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Địa Chỉ Email\" data-form-field=\"email\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div data-for=\"phone\" class=\"col-lg-12 col-md-12 col-sm-12 form-group\">\n                            <input type=\"tel\" name=\"phone\" placeholder=\"Số Điện Thoại Liên Hệ\" data-form-field=\"phone\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div class=\"col-12 form-group\" data-for=\"textarea\">\n                            <textarea name=\"textarea\" placeholder=\"Nội Dung Tin Nhắn\" data-form-field=\"textarea\" class=\"form-control\"></textarea>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-md-auto col-12 mbr-section-btn\"><a type=\"submit\" class=\"btn btn-secondary\" data-app-placeholder=\"Type Text\">Gửi Tin Nhắn Đến PST</a></div>\n                    </div>\n                </form>\n            </div>\n            <div class=\"offset-lg-1\"></div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "PST-FContact",
+          "_isUserblock": true,
+          "_cid": "suf42cqqA9",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".image-wrapper": {
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".card-wrapper": {
+              "margin-bottom": "2rem",
+              "@media (max-width: 991px)": {
+                "padding": "1rem 2rem"
+              },
+              "@media (min-width: 992px)": {
+                "padding": "2rem 4rem"
+              },
+              "display": "flex",
+              "border-radius": "4px",
+              "background": "@cardsBg"
+            },
+            ".mbr-iconfont": {
+              "font-size": "(@iconSize * 1rem)",
+              "padding-right": "1.5rem",
+              "color": "@primaryColor"
+            },
+            ".mbr-section-title": {
+              "color": "#ca0000"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#3e0000"
+            },
+            ".card-title": {
+              "color": "#830000",
+              "text-align": "center"
+            }
+          },
+          "_name": "contacts2",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section class=\"contacts2\" group=\"Contacts\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    <!---->\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <header>Cards</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitleCards\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\" checked>\n        <input type=\"range\" inline title=\"Icon Size\" name=\"iconSize\" min=\"1\" max=\"4\" step=\"1\" value=\"2\">\n        <input type=\"color\" title=\"BG\" name=\"cardsBg\" value=\"#fafafa\">\n        <select title=\"Amount\" name=\"cardsAmount\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\" selected>4</option>\n        </select>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1.jpg\" parallax selected>\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\">\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\"><b>Liên Hệ PST Để Được Tư Vấn Sản Phẩm</b></h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Contacts Subtitle\n            </h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div class=\"card col-12 col-md-6\">\n                <div class=\"card-wrapper\">\n                    <div class=\"image-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-briefcase\" style=\"color: rgb(131, 0, 0); fill: rgb(131, 0, 0);\"></span>\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\" mbr-if=\"showTitleCards\"><b>Văn Phòng Làm Việc</b><br></h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>71/02/95 Nguyễn Bặc - P.3 - Q.Tân Bình -&nbsp;</b><b>TP.Hồ Chí Minh</b><br>Điện Thoại: <a href=\"tel:02862565519\" class=\"text-secondary\"><b>+84 (028) 6256 5519</b></a><br>Di Động: <a href=\"tel:0909057756\" class=\"text-secondary\"><b>(+84) 0909 057 756</b></a><br>E-Mail: <a href=\"mailto:pstgroup@psteng.com\" class=\"text-secondary\"><b>pstgroup@psteng.com</b></a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-wrapper\">\n                    <div class=\"image-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-setting\" style=\"color: rgb(131, 0, 0); fill: rgb(131, 0, 0);\"></span>\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\" mbr-if=\"showTitleCards\"><b>Nhà Máy Sản Xuất</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>\n                            HL418 - KP.Long Bình - P.KhánhBình - TX.Tân Uyên - T.Bình Dương</b><br>Điện Thoại: <a href=\"tel:07243763632\" class=\"text-secondary\"><b>+84 (072) 4376 3632</b></a><br>Di Động: <a href=\"tel:0909057756\" class=\"text-secondary\"><b>(+84) 0909 057 756</b></a><br>E-Mail: <a href=\"mailto:psteng@psteng.com\" class=\"text-secondary text-primary\"><b>psteng@psteng.com</b></a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 2\">\n                <div class=\"card-wrapper\">\n                    <div class=\"image-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-image-slider\" style=\"color: rgb(131, 0, 0); fill: rgb(131, 0, 0);\"></span>\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\" mbr-if=\"showTitleCards\"><b>Phòng Trưng Bày SP</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>7A/12 Đại Lộ Bình Dương - P.Bình Hòa - TX.Thuận An - T.Bình Dương</b><br>Di Động:&nbsp;<a href=\"tel:0909057756\" class=\"text-secondary\"><b>(+84) 0909 057 756</b></a><br>E-Mail: <a href=\"mailto:pstsales@psteng.com\" class=\"text-secondary\"><b>pstsales@psteng.com</b></a></p>\n                    </div>\n                </div>\n            </div>\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 3\">\n                <div class=\"card-wrapper\">\n                    <div class=\"image-wrapper\">\n                        <span mbr-icon class=\"mbr-iconfont mbrib-alert\" style=\"color: rgb(131, 0, 0); fill: rgb(131, 0, 0);\"></span>\n                    </div>\n                    <div class=\"text-wrapper\">\n                        <h6 class=\"card-title mbr-fonts-style mb-1\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title\" mbr-if=\"showTitleCards\"><b>Khung Giờ Làm Việc</b></h6>\n                        <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">Giờ Buổi Sáng » <b>08:00 - 11:30</b><br>Giờ Buổi Chiều » <b>13:30 - 17:30</b><br><b>Chủ Nhật &amp; Lễ Tết » Đóng Cửa</b><b><br></b><b>Số Điện Thoại Hotline:&nbsp;<b><a href=\"tel:0909057756\" class=\"text-secondary\"><b>(+84) 0909 057 756</b></a></b></b><br></p>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "PST-IContact",
+          "_isUserblock": true,
+          "_cid": "suf43fx8an",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "_name": "footer6-su95uEqHLQ-su95uEqHLQ-su95uEqHLQ-su95uEqHLQ-su95uEqHLQ",
+          "_sourceTheme": "mobirise5",
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = \"image\")": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = \"color\")": {
+              "background-color": "@bg-value"
+            },
+            ".content": {
+              "@media (max-width: 767px)": {
+                "text-align": "center",
+                "> div:not(:last-child)": {
+                  "margin-bottom": "2rem"
+                }
+              }
+            },
+            ".map": {
+              "height": "18.75rem"
+            },
+            ".footer-lower": {
+              ".copyright": {
+                "@media (max-width: 767px)": {
+                  "margin-bottom": "1rem",
+                  "text-align": "center"
+                }
+              },
+              "hr": {
+                "margin": "1rem 0",
+                "border-color": "#fff",
+                "opacity": "0.05"
+              }
+            },
+            ".google-map": {
+              "height": "25rem",
+              "position": "relative",
+              "iframe": {
+                "height": "100%",
+                "width": "100%"
+              },
+              "[data-state-details]": {
+                "color": "#6b6763",
+                "font-family": "Montserrat",
+                "height": "1.5em",
+                "margin-top": "-0.75em",
+                "padding-left": "1.25rem",
+                "padding-right": "1.25rem",
+                "position": "absolute",
+                "text-align": "center",
+                "top": "50%",
+                "width": "100%"
+              },
+              "&[data-state]": {
+                "background": "#e9e5dc"
+              },
+              "&[data-state=\"loading\"]": {
+                "[data-state-details]": {
+                  "display": "none"
+                },
+                "&::after": {}
+              }
+            },
+            ".social-list": {
+              "padding-left": "0",
+              "margin-bottom": "0",
+              "margin-left": "-7px",
+              "list-style": "none",
+              "display": "flex",
+              "-webkit-justify-content": "flex-start",
+              "justify-content": "flex-start",
+              "-webkit-flex-wrap": "wrap",
+              "flex-wrap": "wrap",
+              ".mbr-iconfont-social": {
+                "font-size": "1.3rem",
+                "color": "#fff"
+              },
+              ".soc-item": {
+                "margin": "0 0.5rem"
+              },
+              "a": {
+                "margin": "0",
+                "opacity": "0.5",
+                "-webkit-transition": "0.2s linear",
+                "transition": "0.2s linear",
+                "&:hover": {
+                  "opacity": "1"
+                }
+              },
+              "@media (max-width: 767px)": {
+                "-webkit-justify-content": "center",
+                "justify-content": "center"
+              }
+            },
+            ".list": {
+              "list-style-type": "none",
+              "padding": "0"
+            },
+            "H5": {
+              "color": "#11ff00"
+            },
+            ".mbr-text": {
+              "text-align": "left"
+            }
+          },
+          "_customHTML": "<section class=\"footer6\" group=\"Footers\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\" global once=\"footers\">\n\n    <mbr-parameters>\n        <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"5\">\n        <input type=\"map\" title=\"Map\" name=\"googleMap\" place-id=\"<iframe src=&quot;https://www.google.com/maps/d/embed?mid=1lYknr7wQX9fYncEOryJOpvDbtvPZ4u9j&amp;hl=vi&quot; width=&quot;100%&quot; height=&quot;100%&quot;></iframe>\" value=\"<iframe src=&quot;https://www.google.com/maps/d/embed?mid=1lYknr7wQX9fYncEOryJOpvDbtvPZ4u9j&amp;hl=vi&quot; width=&quot;100%&quot; height=&quot;100%&quot;></iframe>\">\n        <input type=\"checkbox\" title=\"Show Copyright\" name=\"showCopyright\" checked>\n        <select title=\"Icons\" name=\"iconsCount\">\n            <option value=\"0\">0</option>\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\">3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\" selected>6</option>\n        </select>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/background5-1.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#170103\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#232323\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n        <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row content mbr-white\">\n            <!-- <div class=\"col-12 col-md-3 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\"><b>Hỗ Trợ Kỹ Thuật Khẩn Cấp</b></h5>\n                <p class=\"mbr-text mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><a href=\"tel:0909057756\" class=\"text-primary\"><b>0909057756</b></a>&nbsp;– <a href=\"tel:02862565519\" class=\"text-primary\"><b>(028)62565519</b></a><br><a href=\"tel:0909057756\" class=\"text-primary\"><b>0909057756</b></a>&nbsp;– <a href=\"tel:07243763632\" class=\"text-primary\"><b>(072)43763632</b></a></p> <br>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2 mt-4\" mbr-theme-style=\"display-7\"><b>Thông Tin Liên Hệ</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>CÔNG TY CP CÔNG NGHỆ</b><br><b>MÔI TRƯỜNG PST</b><br><b>Email:</b> <a href=\"mailto:Contact@KNALaw.vn\" class=\"text-primary\"><b>Contact@KNALaw.vn</b></a><br><b>Phone:</b> <a href=\"tel:02862718777\" class=\"text-primary\"><b>+84 (028) 6271 8777</b></a><br><b>Trụ Sở:</b> <i>P.1901, Tầng 19,<br>Saigon Trade Center -<br>37 Tôn Đức Thắng, P.Bến Nghé,<br>Q.1, TP. Hồ Chí Minh.</i><br></p>\n            </div> -->\n            <div class=\"col-12 col-md-6 mbr-fonts-style\" mbr-theme-style=\"display-7\">\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2\" mbr-theme-style=\"display-7\"><b>Kết Nối Dịch Vụ</b></h5>\n                <ul class=\"list mbr-fonts-style mb-4\" mbr-theme-style=\"display-4\" data-app-selector=\".list\" data-multiline mbr-article>\n                    <li class=\"mbr-text item-wrap\"><a class=\"text-primary\" href=\"index.html#top\"><b>Văn Phòng Điện Tử PST</b></a></li>\n                    <li class=\"mbr-text item-wrap\"><a class=\"text-primary\" href=\"index.html#top\"><b>Cổng Thông Tin Khách Hàng</b></a></li>\n                    <li class=\"mbr-text item-wrap\"><a class=\"text-primary\" href=\"index.html#top\"><b>Trang Tin Bài Viết Từ PST</b></a></li>\n                </ul>\n                <h5 class=\"mbr-section-subtitle mbr-fonts-style mb-2 mt-5\" mbr-theme-style=\"display-7\"><b>Trụ Sở Văn Phòng Làm Việc &amp; Nhà Máy Sản Xuất</b></h5>\n                <p class=\"mbr-text mbr-fonts-style mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>CÔNG TY CỔ PHẦN CÔNG NGHỆ MÔI TRƯỜNG PST</b><br><b>#. Văn Phòng :</b>&nbsp;<i>71/02/95 Nguyễn Bặc - P.3 - Q.Tân Bình - TP.HCM.</i><br><b>#. Nhà Máy :</b>&nbsp;<i>HL418 - Khu Phố Long Bình - Phường KhánhBình - TX.Tân Uyên - T.Bình Dương.</i><br><b>#. Phòng Trưng Bày :</b>&nbsp;<i>7A/12 Đại Lộ Bình Dương - P.Bình Hòa - TX.Thuận An - T.Bình Dương.</i></p>\n            </div>\n            <div class=\"col-12 col-md-6\">\n                <div class=\"google-map\" mbr-map=\"googleMap\"></div>\n            </div>\n            <div class=\"col-md-6\">\n                <div class=\"social-list align-left\" mbr-if=\"iconsCount > 0\">\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>0\">\n                        <a href=\"https://twitter.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-twitter socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>1\">\n                        <a href=\"https://www.facebook.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-facebook socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>2\">\n                        <a href=\"https://www.youtube.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-youtube socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>3\">\n                        <a href=\"https://instagram.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-instagram socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>4\">\n                        <a href=\"https://plus.google.com/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-googleplus socicon\"></span>\n                        </a>\n                    </div>\n                    <div class=\"soc-item\" mbr-if=\"iconsCount>5\">\n                        <a href=\"https://www.behance.net/\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont mbr-iconfont-social socicon-behance socicon\"></span>\n                        </a>\n                    </div>\n                </div>\n            </div>\n        </div>\n        <div class=\"footer-lower\" mbr-if=\"showCopyright\">\n            <div class=\"media-container-row\">\n                <div class=\"col-sm-12\">\n                    <hr>\n                </div>\n            </div>\n            <div class=\"col-sm-12 copyright pl-0\">\n                <p class=\"mbr-text mbr-fonts-style mbr-white\" mbr-theme-style=\"display-7\" data-app-selector=\".copyright > p\">\n                    © Copyright 2025 PSTeng Corp. - All Rights Reserved\n                </p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "PST-FMap",
+          "_isUserblock": true,
+          "_cid": "suf43VDMM0",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "footers",
+          "_params": {}
+        }
+      ]
+    }
+  }
+}
